@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "name": "starwars",
+  "author": "Bruce Wayne",
+  "componentLibs": [
+    "@reactackle/reactackle@0.1.0-dev.668",
+    "@jssy/jssy-test-components@0.8.0"
+  ],
+  "enableHTML": true,
+  "graphQLEndpointURL": "http://localhost:3030",
+  "proxyGraphQLEndpoint": false,
+  "auth": null,
+  "routes": [
+    {
+      "id": 0,
+      "path": "/",
+      "title": "Root",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": false,
+      "redirectAuthenticatedTo": "",
+      "redirectAnonymous": false,
+      "redirectAnonymousTo": "",
+      "paramValues": {},
+      "component": {
+        "id": 0,
+        "name": "Reactackle.App",
+        "title": "",
+        "isWrapper": false,
+        "props": {
+          "fixed": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          }
+        },
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [
+          0,
+          1,
+          2
+        ],
+        "children": [
+          {
+            "id": 1,
+            "name": "Reactackle.TopRegion",
+            "title": "",
+            "isWrapper": false,
+            "props": {},
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          },
+          {
+            "id": 2,
+            "name": "Reactackle.MainRegion",
+            "title": "",
+            "isWrapper": false,
+            "props": {},
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [
+              {
+                "id": 5,
+                "name": "HTML.ul",
+                "title": "",
+                "isWrapper": false,
+                "props": {
+                  "onClick": {
+                    "source": "actions",
+                    "sourceData": {
+                      "actions": []
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [
+                  {
+                    "id": 8,
+                    "name": "List",
+                    "title": "",
+                    "isWrapper": false,
+                    "props": {
+                      "data": {
+                        "source": "data",
+                        "sourceData": {
+                          "dataContext": [],
+                          "queryPath": [
+                            {
+                              "field": "allFilms",
+                              "connectionPageSize": 10
+                            }
+                          ],
+                          "queryArgs": {}
+                        }
+                      },
+                      "component": {
+                        "source": "designer",
+                        "sourceData": {
+                          "component": {
+                            "id": 0,
+                            "name": "HTML.li",
+                            "title": "",
+                            "isWrapper": false,
+                            "props": {
+                              "onClick": {
+                                "source": "actions",
+                                "sourceData": {
+                                  "actions": []
+                                }
+                              },
+                              "value": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": 0
+                                }
+                              }
+                            },
+                            "systemProps": {
+                              "visible": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": true
+                                }
+                              }
+                            },
+                            "layout": 0,
+                            "regionsEnabled": [],
+                            "children": [
+                              {
+                                "id": 1,
+                                "name": "Reactackle.Text",
+                                "title": "",
+                                "isWrapper": false,
+                                "props": {
+                                  "align": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": "default"
+                                    }
+                                  },
+                                  "nowrap": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": false
+                                    }
+                                  },
+                                  "transform": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": "default"
+                                    }
+                                  },
+                                  "style": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": "default"
+                                    }
+                                  },
+                                  "bgStyle": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": "default"
+                                    }
+                                  },
+                                  "text": {
+                                    "source": "data",
+                                    "sourceData": {
+                                      "dataContext": [
+                                        "item"
+                                      ],
+                                      "queryPath": [
+                                        {
+                                          "field": "title",
+                                          "connectionPageSize": 10
+                                        }
+                                      ],
+                                      "queryArgs": {}
+                                    }
+                                  }
+                                },
+                                "systemProps": {
+                                  "visible": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": true
+                                    }
+                                  }
+                                },
+                                "layout": 0,
+                                "regionsEnabled": [],
+                                "children": []
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Reactackle.BottomRegion",
+            "title": "",
+            "isWrapper": false,
+            "props": {},
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          }
+        ]
+      },
+      "children": []
+    }
+  ],
+  "functions": {}
+}
