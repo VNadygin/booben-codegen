@@ -1,7 +1,8 @@
 import test from 'ava';
 const generate = require('babel-generator').default;
 import {
-  generateJSX
+  generateJSX,
+  generateComponent
 } from './lib/index.js'
 
 test('generate jsx with prop={false}', t => {
@@ -347,3 +348,86 @@ test('generate const jsx static and routeParams jssyValue', t => {
   const { code } = generate(ast)
   t.is(code, expected)
 })
+
+
+test('generate jsx with App and App 2 prop={false}', t => {
+  const jssy = {
+    "id": 0,
+    "name": "App",
+    "title": "",
+    "isWrapper": false,
+    "props": {
+      "prop": {
+        "source": "static",
+        "sourceData": {
+          "value": false
+        }
+      }
+    },
+    "children": [{
+      "id": 0,
+      "name": "App2",
+      "title": "",
+      "isWrapper": false,
+      "props": {
+        "prop": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "children": [{
+        "id": 0,
+        "name": "App3",
+        "title": "",
+        "isWrapper": false,
+        "props": {
+          "prop": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          }
+        },
+        "children": []
+      }]
+    }]
+  }
+  const expected = '<App prop={false}><App2 prop={false}><App3 prop={false}></App3></App2></App>;'
+  const ast = generateJSX(jssy)
+  const { code } = generate(ast)
+  t.is(code, expected)
+})
+
+test('generate jsx with action prop={onPress}', t => {
+  const jssy = {
+    "id": 0,
+    "name": "App",
+    "title": "",
+    "isWrapper": false,
+    "props": {
+      "prop": {
+        "source": "actions",
+        "sourceData": {
+          "actions": [
+            {
+              "type": "url",
+              "params": {
+                "url": "google.com",
+                "newWindow": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    "children": []
+  }
+
+  const expected = '<App prop={this.handleComponentAction0}></App>;'
+  const ast = generateJSX(jssy)
+  const { code } = generate(ast)
+  t.is(code, expected)
+})
+
