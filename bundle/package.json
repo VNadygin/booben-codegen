@@ -1,0 +1,17 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jssy/jssy-test-components": "^0.8.0",
+    "@reactackle/reactackle": "0.1.0-dev.668"
+  },
+  "devDependencies": {},
+  "description": ""
+}
