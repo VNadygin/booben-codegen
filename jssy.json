@@ -37,6 +37,19 @@
             "sourceData": {
               "value": 3
             }
+          },
+          "onClick": {
+            "source": "function",
+            "sourceData": {
+              "functionSource": "project",
+              "function": "someFunction",
+              "args": [{
+                "source": "const",
+                "sourceData": {
+                  "value": 3
+                }
+              }]
+            }
           }
         },
         "systemProps": {
@@ -115,5 +128,26 @@
       "children": []
     }
   ],
-  "functions": {}
+  "functions": {
+    "someFunction": {
+      "title": "Some function",
+      "description": "...",
+      "args": [{
+        "name": "arg0",
+        "description": "...",
+        "typedef": { "type": "string" },
+        "isRequired": false,
+        "defaultValue": "ss"
+      },{
+        "name": "arg2",
+        "description": "...",
+        "typedef": { "type": "string" },
+        "isRequired": false,
+        "defaultValue": null
+      }],
+      "spreadLastArg": true,
+      "returnType": { "type": "string" },
+      "body": "return arg0.toUpperCase();"
+    }
+  }
 }
