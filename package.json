@@ -10,10 +10,12 @@
     "jssy-codegen": "./bin/cli.js"
   },
   "devDependencies": {
-    "@jssy/metadata": "^0.8.0",
-    "ava": "^0.22.0"
+    "@eslint/eslint-config-server": "^0.3.3",
+    "ava": "^0.22.0",
+    "eslint": "^4.10.0"
   },
   "dependencies": {
+    "@jssy/metadata": "^0.8.0",
     "@jssy/jssy-test-components": "^0.8.0",
     "@reactackle/reactackle": "0.1.0-dev.668",
     "babel-generator": "^6.26.0",
