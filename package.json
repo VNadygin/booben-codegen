@@ -1,23 +1,31 @@
 {
   "name": "jssy-codegen",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "test": "ava"
+  "version": "0.0.1",
+  "author": "",
+  "description": "",
+  "keywords": [
+    "jssy",
+    "codegen"
+  ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.ordbuy.com/jssy/codegen.git"
   },
+  "main": "index.js",
   "bin": {
     "jssy-codegen": "./bin/cli.js"
   },
-  "devDependencies": {
-    "@eslint/eslint-config-server": "^0.3.3",
-    "ava": "^0.22.0",
-    "eslint": "^4.10.0"
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint .",
+    "lint:strict": "eslint --max-warnings=0 ."
   },
   "dependencies": {
     "@jssy/metadata": "^0.8.0",
-    "@jssy/jssy-test-components": "^0.8.0",
-    "@reactackle/reactackle": "0.1.0-dev.668",
     "babel-generator": "^6.26.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
@@ -29,14 +37,14 @@
     "traverse": "^0.6.6",
     "tree-model": "^1.0.6"
   },
-  "directories": {
-    "lib": "lib"
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.11.0",
+    "eslint-config-universe": "^1.0.6",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.8.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.ordbuy.com/jssy/codegen.git"
-  },
-  "keywords": [],
-  "author": "",
-  "description": ""
+  "pre-commit": [
+    "lint:strict"
+  ]
 }
