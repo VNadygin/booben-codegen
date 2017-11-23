@@ -67,6 +67,27 @@
           2
         ],
         "children": [{
+          "id": 2,
+          "name": "Text",
+          "title": "",
+          "isWrapper": false,
+          "props": {
+            "text": {
+              "source": "function",
+              "sourceData": {
+                "functionSource": "project",
+                "function": "someFunction",
+                "args": [{
+                  "source": "static",
+                  "sourceData": {
+                    "value": "Lorem ipsum"
+                  }
+                }]
+              }
+            }
+          },
+          "children": []
+        }, {
           "id": 1,
           "name": "Reactackle.TextField",
           "title": "",
