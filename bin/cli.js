@@ -24,5 +24,5 @@ const cli = async () => {
 };
 
 cli().catch(err => {
-  console.error(err);
+  console.error(err.stack);
 });
