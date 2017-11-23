@@ -78,6 +78,12 @@
                 "value": 3
               }
             },
+            "onChange": {
+              "source": "actions",
+              "sourceData": {
+                "actions": []
+              }
+            },
             "onSubmit": {
               "source": "actions",
               "sourceData": {

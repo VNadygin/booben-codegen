@@ -1,4 +1,3 @@
 {
-  "extends": "@eslint/eslint-config-server"
+  "extends": "universe/node"
 }
-
