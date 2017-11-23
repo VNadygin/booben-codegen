@@ -150,9 +150,47 @@
             2
           ],
           "children": []
+        }, {
+          "id": 3,
+          "name": "Outlet",
+          "title": "",
+          "isWrapper": false,
+          "props": {},
+          "children": []
         }]
       },
-      "children": []
+      "children": [{
+        "id": 1,
+        "path": "foo",
+        "title": "Foo",
+        "description": "",
+        "haveIndex": false,
+        "indexRouteDescription": "",
+        "indexComponent": null,
+        "redirect": false,
+        "redirectTo": "",
+        "redirectAuthenticated": false,
+        "redirectAuthenticatedTo": "",
+        "redirectAnonymous": false,
+        "redirectAnonymousTo": "",
+        "paramValues": {},
+        "component": {
+          "id": 100,
+          "name": "Reactackle.Text",
+          "title": "",
+          "isWrapper": false,
+          "props": {
+            "text": {
+              "source": "static",
+              "sourceData": {
+                "value": "Foo bar"
+              }
+            }
+          },
+          "children": []
+        },
+        "children": []
+      }]
     }
   ],
   "functions": {
