@@ -32,6 +32,7 @@
     "minimist": "^1.2.0",
     "mz": "^2.7.0",
     "npm-package-arg": "^6.0.0",
+    "pretty-ms": "^3.1.0",
     "rimraf": "^2.6.2",
     "thenify": "^3.3.0",
     "thenify-all": "^1.6.0"
