@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://gitlab.ordbuy.com/jssy/codegen.git"
   },
-  "main": "index.js",
+  "main": "./lib/api.js",
   "bin": {
     "jssy-codegen": "./bin/cli.js"
   },
@@ -20,7 +20,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "ava",
     "lint": "eslint .",
     "lint:strict": "eslint --max-warnings=0 ."
   },
@@ -29,16 +28,15 @@
     "babel-generator": "^6.26.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
-    "babylon": "^6.18.0",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
     "mz": "^2.7.0",
     "npm-package-arg": "^6.0.0",
-    "traverse": "^0.6.6",
-    "tree-model": "^1.0.6"
+    "rimraf": "^2.6.2",
+    "thenify": "^3.3.0",
+    "thenify-all": "^1.6.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
     "eslint": "^4.11.0",
     "eslint-config-universe": "^1.0.6",
     "pre-commit": "^1.2.2",
