@@ -176,18 +176,55 @@
         "paramValues": {},
         "component": {
           "id": 100,
-          "name": "Reactackle.Text",
+          "name": "Reactackle.Container",
           "title": "",
           "isWrapper": false,
-          "props": {
-            "text": {
-              "source": "static",
-              "sourceData": {
-                "value": "Foo bar"
+          "props": {},
+          "children":[{
+            "id": 101,
+            "name": "List",
+            "title": "",
+            "isWrapper": false,
+            "props": {
+              "data": {
+                "source": "static",
+                "sourceData": {
+                  "value": [{
+                    "source": "static",
+                    "sourceData": {
+                      "value": "foo"
+                    }
+                  }, {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "bar"
+                    }
+                  }]
+                }
+              },
+              "component": {
+                "source": "designer",
+                "sourceData": {
+                  "component": {
+                    "id": 0,
+                    "name": "Reactackle.Text",
+                    "title": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "ownerProp",
+                        "sourceData": {
+                          "ownerPropName": "item"
+                        }
+                      }
+                    },
+                    "children": []
+                  }
+                }
               }
-            }
-          },
-          "children": []
+            },
+            "children": []
+          }]
         },
         "children": []
       }]
