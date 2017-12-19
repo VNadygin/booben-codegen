@@ -24,15 +24,19 @@
     "lint:strict": "eslint --max-warnings=0 ."
   },
   "dependencies": {
+    "@jssy/graphql-schema": "^0.1.0",
     "@jssy/metadata": "^0.8.0",
     "babel-generator": "^6.26.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
+    "graphql": "^0.11.7",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",
     "mz": "^2.7.0",
     "npm-package-arg": "^6.0.0",
     "pretty-ms": "^3.1.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
     "rimraf": "^2.6.2",
     "thenify": "^3.3.0",
     "thenify-all": "^1.6.0"
