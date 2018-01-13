@@ -46,8 +46,5 @@
     "eslint-config-universe": "^1.0.6",
     "pre-commit": "^1.2.2",
     "prettier": "^1.8.2"
-  },
-  "pre-commit": [
-    "lint:strict"
-  ]
+  }
 }
