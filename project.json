@@ -1,1 +1,1827 @@
-{"version":1,"name":"scaphold","author":"Bruce Wayne","componentLibs":["@reactackle/reactackle@0.1.0-dev.680","@jssy/jssy-test-components@0.8.0"],"enableHTML":true,"graphQLEndpointURL":"https://api.graph.cool/simple/v1/cjbp7s0dr1nk401531r08mjap","proxyGraphQLEndpoint":false,"auth":{"type":"jwt","loginMutation":"authenticateUser","tokenPath":["token"],"username":{"value":"vnadygin@me.com","argument":"email","path":[]},"password":{"value":"12345","argument":"password","path":[]}},"routes":[{"id":11,"path":"/","title":"App","description":"","haveIndex":false,"indexRouteDescription":"","indexComponent":null,"redirect":true,"redirectTo":"/app/list","redirectAuthenticated":false,"redirectAuthenticatedTo":"","redirectAnonymous":false,"redirectAnonymousTo":"/auth","paramValues":{},"component":{"id":189,"name":"Reactackle.App","title":"Reactackle.App","style":"","isWrapper":false,"props":{"fixed":{"source":"static","sourceData":{"value":false}}},"systemProps":{"visible":{"source":"static","sourceData":{"value":true}}},"layout":0,"regionsEnabled":[0,1,2],"children":[{"id":190,"name":"Reactackle.TopRegion","title":"Reactackle.TopRegion","style":"","isWrapper":false,"props":{},"systemProps":{"visible":{"source":"static","sourceData":{"value":true}}},"layout":0,"regionsEnabled":[],"children":[]},{"id":191,"name":"Reactackle.MainRegion","title":"Reactackle.MainRegion","style":"","isWrapper":false,"props":{},"systemProps":{"visible":{"source":"static","sourceData":{"value":true}}},"layout":0,"regionsEnabled":[],"children":[{"id":193,"name":"Reactackle.Text","title":"Reactackle.Text","style":"","isWrapper":false,"props":{"align":{"source":"static","sourceData":{"value":"center"}},"lineThrough":{"source":"static","sourceData":{"value":false}},"nowrap":{"source":"static","sourceData":{"value":false}},"transform":{"source":"static","sourceData":{"value":"default"}},"style":{"source":"static","sourceData":{"value":"default"}},"bgStyle":{"source":"static","sourceData":{"value":"default"}},"text":{"source":"static","sourceData":{"value":"Hello World"}}},"systemProps":{"visible":{"source":"static","sourceData":{"value":true}}},"layout":0,"regionsEnabled":[],"children":[]}]},{"id":192,"name":"Reactackle.BottomRegion","title":"Reactackle.BottomRegion","style":"","isWrapper":false,"props":{},"systemProps":{"visible":{"source":"static","sourceData":{"value":true}}},"layout":0,"regionsEnabled":[],"children":[]}]},"children":[]}],"functions":{}}
+{
+  "version": 1,
+  "name": "test-cases",
+  "author": "Bruce Wayne",
+  "componentLibs": ["@reactackle/reactackle@0.1.0-dev.693", "@jssy/jssy-test-components@0.8.0"],
+  "enableHTML": true,
+  "graphQLEndpointURL": "https://api.graph.cool/simple/v1/cjbp7s0dr1nk401531r08mjap",
+  "proxyGraphQLEndpoint": false,
+  "auth": {
+    "type": "jwt",
+    "loginMutation": "authenticateUser",
+    "tokenPath": ["token"],
+    "username": {
+      "value": "vnadygin@me.com",
+      "argument": "email",
+      "path": []
+    },
+    "password": {
+      "value": "12345",
+      "argument": "password",
+      "path": []
+    }
+  },
+  "routes": [{
+    "id": 0,
+    "path": "/app_basic",
+    "title": "App - basic",
+    "description": "Route with basic structure and static content",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": false,
+    "redirectTo": "",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 0,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 1,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 2,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 6,
+          "name": "Reactackle.Sidebar",
+          "title": "Reactackle.Sidebar",
+          "style": "",
+          "isWrapper": false,
+          "props": {
+            "haveToggleButton": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "toggleButtonText": {
+              "source": "static",
+              "sourceData": {
+                "value": "Collapse"
+              }
+            },
+            "expanded": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            },
+            "attachToRight": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "icon": {
+              "source": "static",
+              "sourceData": {
+                "value": {
+                  "name": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": ""
+                    }
+                  },
+                  "src": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": ""
+                    }
+                  },
+                  "type": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "font-awesome"
+                    }
+                  }
+                }
+              }
+            },
+            "autoCollapsing": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            }
+          },
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 7,
+            "name": "Reactackle.SidebarRegion",
+            "title": "Reactackle.SidebarRegion",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "spread": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollable": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "bordered": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollableMinHeight": {
+                "source": "static",
+                "sourceData": {
+                  "value": 200
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 9,
+              "name": "Reactackle.PaddingBox",
+              "title": "Reactackle.PaddingBox",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "paddingSize": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "small"
+                  }
+                },
+                "removePadding": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "none"
+                  }
+                },
+                "spread": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 8,
+                "name": "Reactackle.Text",
+                "title": "Reactackle.Text",
+                "style": "",
+                "isWrapper": false,
+                "props": {
+                  "align": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "lineThrough": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": false
+                    }
+                  },
+                  "nowrap": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": false
+                    }
+                  },
+                  "transform": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "style": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "bgStyle": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "text": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "Sidebar"
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": []
+              }]
+            }]
+          }]
+        }, {
+          "id": 4,
+          "name": "Reactackle.Content",
+          "title": "Reactackle.Content",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 12,
+            "name": "Reactackle.FlexRegion",
+            "title": "Reactackle.FlexRegion",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "spread": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              },
+              "layoutDirection": {
+                "source": "static",
+                "sourceData": {
+                  "value": "vertical"
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 11,
+              "name": "Reactackle.Container",
+              "title": "Reactackle.Container",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "boxed": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "spread": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 5,
+                "name": "Reactackle.Text",
+                "title": "Reactackle.Text",
+                "style": "",
+                "isWrapper": false,
+                "props": {
+                  "align": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "lineThrough": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": false
+                    }
+                  },
+                  "nowrap": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": false
+                    }
+                  },
+                  "transform": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "style": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "bgStyle": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "default"
+                    }
+                  },
+                  "text": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "Content"
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": []
+              }]
+            }, {
+              "id": 15,
+              "name": "Reactackle.Container",
+              "title": "Reactackle.Container",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "boxed": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                },
+                "spread": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 17,
+                "name": "Reactackle.Row",
+                "title": "Reactackle.Row",
+                "style": "",
+                "isWrapper": false,
+                "props": {
+                  "layoutDirection": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": "horizontal"
+                    }
+                  },
+                  "fixedWidth": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": false
+                    }
+                  },
+                  "compensateGutter": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  },
+                  "wrapContent": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  },
+                  "expandRatio": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": 0
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [{
+                  "id": 18,
+                  "name": "Reactackle.Column",
+                  "title": "Reactackle.Column",
+                  "style": "",
+                  "isWrapper": false,
+                  "props": {
+                    "size": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": {
+                          "xsmall": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": 12
+                            }
+                          },
+                          "medium": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": 4
+                            }
+                          },
+                          "large": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": 3
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "layoutDirection": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": "vertical"
+                      }
+                    },
+                    "mainAxisAlign": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": "center"
+                      }
+                    },
+                    "crossAxisAlign": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": "stretch"
+                      }
+                    },
+                    "centered": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": {
+                          "xsmall": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          },
+                          "small": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          },
+                          "medium": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          },
+                          "large": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          },
+                          "xlarge": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "collapsed": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 24,
+                    "name": "Reactackle.PaddingBox",
+                    "title": "Reactackle.PaddingBox",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "paddingSize": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "small"
+                        }
+                      },
+                      "removePadding": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "none"
+                        }
+                      },
+                      "spread": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": [{
+                      "id": 37,
+                      "name": "Reactackle.Card",
+                      "title": "Reactackle.Card",
+                      "style": "",
+                      "isWrapper": false,
+                      "props": {
+                        "size": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "default"
+                          }
+                        },
+                        "elevation": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": 1
+                          }
+                        }
+                      },
+                      "systemProps": {
+                        "visible": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": true
+                          }
+                        }
+                      },
+                      "layout": 0,
+                      "regionsEnabled": [],
+                      "children": [{
+                        "id": 38,
+                        "name": "Reactackle.CardAreaMain",
+                        "title": "Reactackle.CardAreaMain",
+                        "style": "",
+                        "isWrapper": false,
+                        "props": {},
+                        "systemProps": {
+                          "visible": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": true
+                            }
+                          }
+                        },
+                        "layout": 0,
+                        "regionsEnabled": [],
+                        "children": [{
+                          "id": 40,
+                          "name": "Reactackle.CardHeaderPrimary",
+                          "title": "Reactackle.CardHeaderPrimary",
+                          "style": "",
+                          "isWrapper": false,
+                          "props": {
+                            "first": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": false
+                              }
+                            },
+                            "last": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": false
+                              }
+                            },
+                            "title": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": "Sample card"
+                              }
+                            },
+                            "subtitle": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": ""
+                              }
+                            }
+                          },
+                          "systemProps": {
+                            "visible": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": true
+                              }
+                            }
+                          },
+                          "layout": 0,
+                          "regionsEnabled": [],
+                          "children": []
+                        }, {
+                          "id": 39,
+                          "name": "Reactackle.CardContent",
+                          "title": "Reactackle.CardContent",
+                          "style": "",
+                          "isWrapper": false,
+                          "props": {
+                            "first": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": false
+                              }
+                            },
+                            "last": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": false
+                              }
+                            }
+                          },
+                          "systemProps": {
+                            "visible": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": true
+                              }
+                            }
+                          },
+                          "layout": 0,
+                          "regionsEnabled": [],
+                          "children": [{
+                            "id": 41,
+                            "name": "Reactackle.Text",
+                            "title": "Reactackle.Text",
+                            "style": "",
+                            "isWrapper": false,
+                            "props": {
+                              "align": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "lineThrough": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": false
+                                }
+                              },
+                              "nowrap": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": false
+                                }
+                              },
+                              "transform": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "style": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "bgStyle": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "text": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "Text"
+                                }
+                              }
+                            },
+                            "systemProps": {
+                              "visible": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": true
+                                }
+                              }
+                            },
+                            "layout": 0,
+                            "regionsEnabled": [],
+                            "children": []
+                          }]
+                        }]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }, {
+            "id": 13,
+            "name": "Reactackle.Container",
+            "title": "Reactackle.Container",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "boxed": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "spread": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 14,
+              "name": "Reactackle.Text",
+              "title": "Reactackle.Text",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "align": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "lineThrough": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "nowrap": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "transform": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "style": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "bgStyle": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "text": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "Footer"
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": []
+            }]
+          }]
+        }]
+      }, {
+        "id": 3,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": []
+  }, {
+    "id": 5,
+    "path": "/case_redirect",
+    "title": "Case: redirect",
+    "description": "",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": true,
+    "redirectTo": "/case_redirect/anchor",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 57,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 58,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 59,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 61,
+          "name": "Outlet",
+          "title": "Outlet",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": []
+        }]
+      }, {
+        "id": 60,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": [{
+      "id": 6,
+      "path": "anchor",
+      "title": "anchor",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": true,
+      "redirectAuthenticatedTo": "/case_redirect/target_authentificated",
+      "redirectAnonymous": true,
+      "redirectAnonymousTo": "/case_redirect/target_anonymous",
+      "paramValues": {},
+      "component": null,
+      "children": []
+    }, {
+      "id": 8,
+      "path": "target_anonymous",
+      "title": "target - anonymous",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": false,
+      "redirectAuthenticatedTo": "",
+      "redirectAnonymous": false,
+      "redirectAnonymousTo": "",
+      "paramValues": {},
+      "component": {
+        "id": 62,
+        "name": "Reactackle.Container",
+        "title": "Reactackle.Container",
+        "style": "",
+        "isWrapper": false,
+        "props": {
+          "boxed": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          },
+          "spread": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          }
+        },
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 63,
+          "name": "Reactackle.Text",
+          "title": "Reactackle.Text",
+          "style": "",
+          "isWrapper": false,
+          "props": {
+            "align": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "lineThrough": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "nowrap": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "transform": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "style": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "bgStyle": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "text": {
+              "source": "static",
+              "sourceData": {
+                "value": "redirect anonymous here"
+              }
+            }
+          },
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": []
+        }]
+      },
+      "children": []
+    }, {
+      "id": 9,
+      "path": "target_authentificated",
+      "title": "target - authentificated",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": false,
+      "redirectAuthenticatedTo": "",
+      "redirectAnonymous": false,
+      "redirectAnonymousTo": "",
+      "paramValues": {},
+      "component": {
+        "id": 64,
+        "name": "Reactackle.Container",
+        "title": "Reactackle.Container",
+        "style": "",
+        "isWrapper": false,
+        "props": {
+          "boxed": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          },
+          "spread": {
+            "source": "static",
+            "sourceData": {
+              "value": false
+            }
+          }
+        },
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 65,
+          "name": "Reactackle.Text",
+          "title": "Reactackle.Text",
+          "style": "",
+          "isWrapper": false,
+          "props": {
+            "align": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "lineThrough": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "nowrap": {
+              "source": "static",
+              "sourceData": {
+                "value": false
+              }
+            },
+            "transform": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "style": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "bgStyle": {
+              "source": "static",
+              "sourceData": {
+                "value": "default"
+              }
+            },
+            "text": {
+              "source": "static",
+              "sourceData": {
+                "value": "redirect authentificated here"
+              }
+            }
+          },
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": []
+        }]
+      },
+      "children": []
+    }]
+  }, {
+    "id": 10,
+    "path": "/app_with_data",
+    "title": "Simple app with data (need data)",
+    "description": "",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": false,
+    "redirectTo": "",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 66,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 67,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 68,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 70,
+          "name": "Reactackle.Content",
+          "title": "Reactackle.Content",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 71,
+            "name": "Reactackle.Container",
+            "title": "Reactackle.Container",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "boxed": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "spread": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 72,
+              "name": "Reactackle.Row",
+              "title": "Reactackle.Row",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "layoutDirection": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "horizontal"
+                  }
+                },
+                "fixedWidth": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "compensateGutter": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "wrapContent": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "expandRatio": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": 0
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 82,
+                "name": "List",
+                "title": "List",
+                "style": "",
+                "isWrapper": false,
+                "props": {
+                  "data": {
+                    "source": "data",
+                    "sourceData": {
+                      "dataContext": [],
+                      "queryPath": [{
+                        "field": "allTodoes",
+                        "connectionPageSize": 10
+                      }],
+                      "queryArgs": {}
+                    }
+                  },
+                  "component": {
+                    "source": "designer",
+                    "sourceData": {
+                      "component": {
+                        "id": 0,
+                        "name": "Reactackle.Column",
+                        "title": "Reactackle.Column",
+                        "style": "",
+                        "isWrapper": false,
+                        "props": {
+                          "size": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": {
+                                "xsmall": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": 12
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "layoutDirection": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": "vertical"
+                            }
+                          },
+                          "mainAxisAlign": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": "center"
+                            }
+                          },
+                          "crossAxisAlign": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": "center"
+                            }
+                          },
+                          "centered": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": {
+                                "xsmall": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": false
+                                  }
+                                },
+                                "small": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": false
+                                  }
+                                },
+                                "medium": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": false
+                                  }
+                                },
+                                "large": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": false
+                                  }
+                                },
+                                "xlarge": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": false
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "collapsed": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": false
+                            }
+                          }
+                        },
+                        "systemProps": {
+                          "visible": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": true
+                            }
+                          }
+                        },
+                        "layout": 0,
+                        "regionsEnabled": [],
+                        "children": [{
+                          "id": 1,
+                          "name": "Reactackle.PaddingBox",
+                          "title": "Reactackle.PaddingBox",
+                          "style": "",
+                          "isWrapper": false,
+                          "props": {
+                            "paddingSize": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": "small"
+                              }
+                            },
+                            "removePadding": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": "none"
+                              }
+                            },
+                            "spread": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": false
+                              }
+                            }
+                          },
+                          "systemProps": {
+                            "visible": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": true
+                              }
+                            }
+                          },
+                          "layout": 0,
+                          "regionsEnabled": [],
+                          "children": [{
+                            "id": 2,
+                            "name": "Reactackle.Card",
+                            "title": "Reactackle.Card",
+                            "style": "",
+                            "isWrapper": false,
+                            "props": {
+                              "size": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "elevation": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": 1
+                                }
+                              }
+                            },
+                            "systemProps": {
+                              "visible": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": true
+                                }
+                              }
+                            },
+                            "layout": 0,
+                            "regionsEnabled": [],
+                            "children": [{
+                              "id": 3,
+                              "name": "Reactackle.CardAreaMain",
+                              "title": "Reactackle.CardAreaMain",
+                              "style": "",
+                              "isWrapper": false,
+                              "props": {},
+                              "systemProps": {
+                                "visible": {
+                                  "source": "static",
+                                  "sourceData": {
+                                    "value": true
+                                  }
+                                }
+                              },
+                              "layout": 0,
+                              "regionsEnabled": [],
+                              "children": [{
+                                "id": 5,
+                                "name": "Reactackle.CardHeaderSecondary",
+                                "title": "Reactackle.CardHeaderSecondary",
+                                "style": "",
+                                "isWrapper": false,
+                                "props": {
+                                  "title": {
+                                    "source": "data",
+                                    "sourceData": {
+                                      "dataContext": ["item", "pathA"],
+                                      "queryPath": [{
+                                        "field": "text",
+                                        "connectionPageSize": 10
+                                      }],
+                                      "queryArgs": {}
+                                    }
+                                  },
+                                  "subtitle": {
+                                    "source": "data",
+                                    "sourceData": {
+                                      "dataContext": ["item"],
+                                      "queryPath": [{
+                                        "field": "user",
+                                        "connectionPageSize": 10
+                                      }, {
+                                        "field": "email",
+                                        "connectionPageSize": 10
+                                      }],
+                                      "queryArgs": {}
+                                    }
+                                  },
+                                  "image": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": ""
+                                    }
+                                  }
+                                },
+                                "systemProps": {
+                                  "visible": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": true
+                                    }
+                                  }
+                                },
+                                "layout": 0,
+                                "regionsEnabled": [],
+                                "children": []
+                              }, {
+                                "id": 4,
+                                "name": "Reactackle.CardHeaderPrimary",
+                                "title": "Reactackle.CardHeaderPrimary",
+                                "style": "",
+                                "isWrapper": false,
+                                "props": {
+                                  "first": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": false
+                                    }
+                                  },
+                                  "last": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": false
+                                    }
+                                  },
+                                  "title": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": ""
+                                    }
+                                  },
+                                  "subtitle": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": ""
+                                    }
+                                  }
+                                },
+                                "systemProps": {
+                                  "visible": {
+                                    "source": "static",
+                                    "sourceData": {
+                                      "value": true
+                                    }
+                                  }
+                                },
+                                "layout": 0,
+                                "regionsEnabled": [],
+                                "children": []
+                              }]
+                            }]
+                          }]
+                        }]
+                      }
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": []
+              }]
+            }]
+          }]
+        }]
+      }, {
+        "id": 69,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": []
+  }],
+  "functions": {}
+}
