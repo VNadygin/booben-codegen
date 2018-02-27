@@ -10465,7 +10465,7 @@
         "tags": {}
       }
     },
-    "moduleName": "@reactackle/reactackle"
+    "moduleName": "reactackle"
   },
   "JssyTest": {
     "namespace": "JssyTest",

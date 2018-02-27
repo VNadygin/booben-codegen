@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn add prettier
+  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -61,7 +61,7 @@ npm manifest:
       "eslint": "^4.11.0",
       "eslint-config-universe": "^1.0.6",
       "pre-commit": "^1.2.2",
-      "prettier": "^1.8.2"
+      "prettier": "^1.10.2"
     }
   }
 

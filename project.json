@@ -2,7 +2,7 @@
   "version": 1,
   "name": "test-cases",
   "author": "Bruce Wayne",
-  "componentLibs": ["@reactackle/reactackle@0.1.0-dev.693", "@jssy/jssy-test-components@0.8.0"],
+  "componentLibs": ["reactackle@^1.0.0-beta.6"],
   "enableHTML": true,
   "graphQLEndpointURL": "https://api.graph.cool/simple/v1/cjbp7s0dr1nk401531r08mjap",
   "proxyGraphQLEndpoint": false,
@@ -253,42 +253,6 @@
                 "style": "",
                 "isWrapper": false,
                 "props": {
-                  "align": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "lineThrough": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": false
-                    }
-                  },
-                  "nowrap": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": false
-                    }
-                  },
-                  "transform": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "style": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "bgStyle": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
                   "text": {
                     "source": "static",
                     "sourceData": {
@@ -394,42 +358,6 @@
                 "style": "",
                 "isWrapper": false,
                 "props": {
-                  "align": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "lineThrough": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": false
-                    }
-                  },
-                  "nowrap": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": false
-                    }
-                  },
-                  "transform": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "style": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
-                  "bgStyle": {
-                    "source": "static",
-                    "sourceData": {
-                      "value": "default"
-                    }
-                  },
                   "text": {
                     "source": "static",
                     "sourceData": {
@@ -794,42 +722,6 @@
                             "style": "",
                             "isWrapper": false,
                             "props": {
-                              "align": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": "default"
-                                }
-                              },
-                              "lineThrough": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": false
-                                }
-                              },
-                              "nowrap": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": false
-                                }
-                              },
-                              "transform": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": "default"
-                                }
-                              },
-                              "style": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": "default"
-                                }
-                              },
-                              "bgStyle": {
-                                "source": "static",
-                                "sourceData": {
-                                  "value": "default"
-                                }
-                              },
                               "text": {
                                 "source": "static",
                                 "sourceData": {
@@ -893,42 +785,6 @@
               "style": "",
               "isWrapper": false,
               "props": {
-                "align": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": "default"
-                  }
-                },
-                "lineThrough": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": false
-                  }
-                },
-                "nowrap": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": false
-                  }
-                },
-                "transform": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": "default"
-                  }
-                },
-                "style": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": "default"
-                  }
-                },
-                "bgStyle": {
-                  "source": "static",
-                  "sourceData": {
-                    "value": "default"
-                  }
-                },
                 "text": {
                   "source": "static",
                   "sourceData": {
@@ -1153,42 +1009,6 @@
           "style": "",
           "isWrapper": false,
           "props": {
-            "align": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "lineThrough": {
-              "source": "static",
-              "sourceData": {
-                "value": false
-              }
-            },
-            "nowrap": {
-              "source": "static",
-              "sourceData": {
-                "value": false
-              }
-            },
-            "transform": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "style": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "bgStyle": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
             "text": {
               "source": "static",
               "sourceData": {
@@ -1262,42 +1082,6 @@
           "style": "",
           "isWrapper": false,
           "props": {
-            "align": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "lineThrough": {
-              "source": "static",
-              "sourceData": {
-                "value": false
-              }
-            },
-            "nowrap": {
-              "source": "static",
-              "sourceData": {
-                "value": false
-              }
-            },
-            "transform": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "style": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
-            "bgStyle": {
-              "source": "static",
-              "sourceData": {
-                "value": "default"
-              }
-            },
             "text": {
               "source": "static",
               "sourceData": {
@@ -1442,6 +1226,199 @@
             "layout": 0,
             "regionsEnabled": [],
             "children": [{
+              "id": 142,
+              "name": "Reactackle.TextField",
+              "title": "Reactackle.TextField",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "tooltip": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "symbolLimit": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": 0
+                  }
+                },
+                "multilineRows": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": {
+                      "min": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      },
+                      "max": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      }
+                    }
+                  }
+                },
+                "slidingLabel": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "onBlur": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                },
+                "message": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "autoComplete": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "off"
+                  }
+                },
+                "colorScheme": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "neutral"
+                  }
+                },
+                "bordered": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "scrollOnFocus": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "multiline": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "clearingIcon": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "onChange": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                },
+                "defaultValue": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "prefix": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "placeholder": {
+                  "source": "data",
+                  "sourceData": {
+                    "dataContext": [],
+                    "queryPath": [{
+                      "field": "User",
+                      "connectionPageSize": 10
+                    }, {
+                      "field": "email",
+                      "connectionPageSize": 10
+                    }],
+                    "queryArgs": {
+                      "User": {
+                        "id": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "cjbp7w122abnu0114czy13nnw"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "label": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "postfix": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "fullWidth": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "onFocus": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                },
+                "type": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "text"
+                  }
+                },
+                "disabled": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "labelPosition": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "top"
+                  }
+                },
+                "dense": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": []
+            }, {
               "id": 72,
               "name": "Reactackle.Row",
               "title": "Reactackle.Row",
@@ -1501,10 +1478,19 @@
                     "sourceData": {
                       "dataContext": [],
                       "queryPath": [{
-                        "field": "allTodoes",
+                        "field": "allUsers",
                         "connectionPageSize": 10
                       }],
-                      "queryArgs": {}
+                      "queryArgs": {
+                        "allUsers": {
+                          "orderBy": {
+                            "source": "static",
+                            "sourceData": {
+                              "value": "email_ASC"
+                            }
+                          }
+                        }
+                      }
                     }
                   },
                   "component": {
@@ -1695,9 +1681,9 @@
                                   "title": {
                                     "source": "data",
                                     "sourceData": {
-                                      "dataContext": ["item", "pathA"],
+                                      "dataContext": ["item"],
                                       "queryPath": [{
-                                        "field": "text",
+                                        "field": "id",
                                         "connectionPageSize": 10
                                       }],
                                       "queryArgs": {}
@@ -1708,9 +1694,6 @@
                                     "sourceData": {
                                       "dataContext": ["item"],
                                       "queryPath": [{
-                                        "field": "user",
-                                        "connectionPageSize": 10
-                                      }, {
                                         "field": "email",
                                         "connectionPageSize": 10
                                       }],
@@ -1820,6 +1803,2983 @@
         "regionsEnabled": [],
         "children": []
       }]
+    },
+    "children": []
+  }, {
+    "id": 11,
+    "path": "/app_with_css",
+    "title": "App with css",
+    "description": "no actions\ncss features used: media query, css variables",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": false,
+    "redirectTo": "",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 83,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 84,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 85,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 87,
+          "name": "Reactackle.Content",
+          "title": "Reactackle.Content",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 90,
+            "name": "HTML.div",
+            "title": "Content wrapper",
+            "style": "background-color: black;\nbackground-image: url('https://macandegg.de/wp-content/uploads/2015/03/large_2.jpg');\nbackground-position: center;\nbackground-size: cover;\nflex-grow: 1;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\npadding: 32px;",
+            "isWrapper": false,
+            "props": {
+              "onClick": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 92,
+              "name": "HTML.div",
+              "title": "HTML.div",
+              "style": "width: 100%;\nmax-width: 80vw;\nborder-radius: 5px;\nbackground-color: #001427;\npadding: 24px;\ncolor: white;\n\n@media only screen and (min-width: 40em) {\n    max-width: 300px;\n}",
+              "isWrapper": false,
+              "props": {
+                "onClick": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 93,
+                "name": "HTML.div",
+                "title": "HTML.div",
+                "style": "--active-color: white;\n--inactive-color: rgba(255,255,255,0.7);\n--color-secondary: #673AB7;\n\ndisplay: flex;\njustify-content: center;\nalign-items: center",
+                "isWrapper": false,
+                "props": {
+                  "onClick": {
+                    "source": "actions",
+                    "sourceData": {
+                      "actions": []
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [{
+                  "id": 95,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--active-color);\nborder-bottom: 1px solid var(--color-secondary);",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": []
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 96,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Sign in"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 99,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--inactive-color);\npadding: 0 1em;\nfont-size: 0.6em;\nfont-style: italic;",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": []
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 100,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "or"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 97,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--inactive-color);",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": []
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 98,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Sign up"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }]
+              }, {
+                "id": 101,
+                "name": "HTML.div",
+                "title": "HTML.div",
+                "style": "padding-top: 20px;\n\ninput {\n  color: #fff !important;\n}",
+                "isWrapper": false,
+                "props": {
+                  "onClick": {
+                    "source": "actions",
+                    "sourceData": {
+                      "actions": []
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [{
+                  "id": 102,
+                  "name": "Reactackle.FormItem",
+                  "title": "Reactackle.FormItem",
+                  "style": "",
+                  "isWrapper": false,
+                  "props": {},
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 103,
+                    "name": "Reactackle.TextField",
+                    "title": "Reactackle.TextField",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "tooltip": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "symbolLimit": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      },
+                      "multilineRows": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": {
+                            "min": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": 0
+                              }
+                            },
+                            "max": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": 0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "slidingLabel": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onBlur": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "message": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "autoComplete": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "off"
+                        }
+                      },
+                      "colorScheme": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "neutral"
+                        }
+                      },
+                      "bordered": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "scrollOnFocus": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "multiline": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "clearingIcon": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onChange": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "defaultValue": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "prefix": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "placeholder": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "label": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Login"
+                        }
+                      },
+                      "postfix": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "fullWidth": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onFocus": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "type": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "text"
+                        }
+                      },
+                      "disabled": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "labelPosition": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "top"
+                        }
+                      },
+                      "dense": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 108,
+                  "name": "Reactackle.FormItem",
+                  "title": "Reactackle.FormItem",
+                  "style": "",
+                  "isWrapper": false,
+                  "props": {},
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 109,
+                    "name": "Reactackle.TextField",
+                    "title": "Reactackle.TextField",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "tooltip": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "symbolLimit": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      },
+                      "multilineRows": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": {
+                            "min": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": 0
+                              }
+                            },
+                            "max": {
+                              "source": "static",
+                              "sourceData": {
+                                "value": 0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "slidingLabel": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onBlur": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "message": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "autoComplete": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "off"
+                        }
+                      },
+                      "colorScheme": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "neutral"
+                        }
+                      },
+                      "bordered": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "scrollOnFocus": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "multiline": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "clearingIcon": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onChange": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "defaultValue": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "prefix": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "placeholder": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "label": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Password"
+                        }
+                      },
+                      "postfix": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "fullWidth": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "onFocus": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      },
+                      "type": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "text"
+                        }
+                      },
+                      "disabled": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "labelPosition": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "top"
+                        }
+                      },
+                      "dense": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 106,
+                  "name": "Reactackle.FormItem",
+                  "title": "Reactackle.FormItem",
+                  "style": "",
+                  "isWrapper": false,
+                  "props": {},
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 111,
+                    "name": "HTML.div",
+                    "title": "HTML.div",
+                    "style": "width: 100%;\ntext-align: right;\n\n> * {\n  width: 100%;\n}",
+                    "isWrapper": false,
+                    "props": {
+                      "onClick": {
+                        "source": "actions",
+                        "sourceData": {
+                          "actions": []
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": [{
+                      "id": 110,
+                      "name": "Reactackle.Button",
+                      "title": "Reactackle.Button",
+                      "style": "",
+                      "isWrapper": false,
+                      "props": {
+                        "size": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "normal"
+                          }
+                        },
+                        "outlined": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": false
+                          }
+                        },
+                        "onPress": {
+                          "source": "actions",
+                          "sourceData": {
+                            "actions": []
+                          }
+                        },
+                        "colorScheme": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "secondary"
+                          }
+                        },
+                        "href": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": ""
+                          }
+                        },
+                        "text": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "Sign In"
+                          }
+                        },
+                        "radius": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": "default"
+                          }
+                        },
+                        "subtitle": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": null
+                          }
+                        },
+                        "raised": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": false
+                          }
+                        },
+                        "icon": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": {
+                              "size": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "normal"
+                                }
+                              },
+                              "color": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": ""
+                                }
+                              },
+                              "colorScheme": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "default"
+                                }
+                              },
+                              "name": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "chevron-right"
+                                }
+                              },
+                              "border": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": false
+                                }
+                              },
+                              "flip": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": "none"
+                                }
+                              },
+                              "rounded": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": false
+                                }
+                              },
+                              "backgroundColor": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": ""
+                                }
+                              },
+                              "borderWidth": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": 0
+                                }
+                              },
+                              "rotate": {
+                                "source": "static",
+                                "sourceData": {
+                                  "value": 0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "iconPositionRight": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": true
+                          }
+                        },
+                        "narrow": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": false
+                          }
+                        },
+                        "disabled": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": false
+                          }
+                        },
+                        "alternateTitle": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": null
+                          }
+                        }
+                      },
+                      "systemProps": {
+                        "visible": {
+                          "source": "static",
+                          "sourceData": {
+                            "value": true
+                          }
+                        }
+                      },
+                      "layout": 0,
+                      "regionsEnabled": [],
+                      "children": []
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
+        }]
+      }, {
+        "id": 86,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": []
+  }, {
+    "id": 12,
+    "path": "/app_with_css_actions",
+    "title": "App with css and actions",
+    "description": "css features used: media query, css variables",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": true,
+    "redirectTo": "/app_with_css_actions/sign_in",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 83,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 84,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 85,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 87,
+          "name": "Reactackle.Content",
+          "title": "Reactackle.Content",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 90,
+            "name": "HTML.div",
+            "title": "Content wrapper",
+            "style": "background-color: black;\nbackground-image: url('https://macandegg.de/wp-content/uploads/2015/03/large_2.jpg');\nbackground-position: center;\nbackground-size: cover;\nflex-grow: 1;\ndisplay: flex;\njustify-content: center;\nalign-items: center;\npadding: 32px;",
+            "isWrapper": false,
+            "props": {
+              "onClick": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 92,
+              "name": "HTML.div",
+              "title": "Auth card",
+              "style": "width: 100%;\nmax-width: 80vw;\nborder-radius: 5px;\nbackground-color: #001427;\npadding: 24px;\ncolor: white;\n\n@media only screen and (min-width: 40em) {\n    max-width: 300px;\n}",
+              "isWrapper": false,
+              "props": {
+                "onClick": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": [{
+                "id": 93,
+                "name": "HTML.div",
+                "title": "Tabs wrapper",
+                "style": "--active-color: white;\n--inactive-color: rgba(255,255,255,0.7);\n--color-secondary: #673AB7;\n\ndisplay: flex;\njustify-content: center;\nalign-items: center",
+                "isWrapper": false,
+                "props": {
+                  "onClick": {
+                    "source": "actions",
+                    "sourceData": {
+                      "actions": []
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [{
+                  "id": 95,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--active-color);\nborder-bottom: 1px solid var(--color-secondary);\ncursor: pointer;",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": [{
+                          "type": "navigate",
+                          "params": {
+                            "routeId": 13,
+                            "routeParams": {}
+                          }
+                        }]
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 96,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Sign in"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 99,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--inactive-color);\npadding: 0 1em;\nfont-size: 0.6em;\nfont-style: italic;",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": []
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 100,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "or"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }, {
+                  "id": 97,
+                  "name": "HTML.span",
+                  "title": "HTML.span",
+                  "style": "color: var(--inactive-color);\ncursor: pointer;",
+                  "isWrapper": false,
+                  "props": {
+                    "onClick": {
+                      "source": "actions",
+                      "sourceData": {
+                        "actions": [{
+                          "type": "navigate",
+                          "params": {
+                            "routeId": 14,
+                            "routeParams": {}
+                          }
+                        }]
+                      }
+                    }
+                  },
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": [{
+                    "id": 98,
+                    "name": "Reactackle.Text",
+                    "title": "Reactackle.Text",
+                    "style": "",
+                    "isWrapper": false,
+                    "props": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Sign up"
+                        }
+                      }
+                    },
+                    "systemProps": {
+                      "visible": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": true
+                        }
+                      }
+                    },
+                    "layout": 0,
+                    "regionsEnabled": [],
+                    "children": []
+                  }]
+                }]
+              }, {
+                "id": 101,
+                "name": "HTML.div",
+                "title": "Content wrapper",
+                "style": "padding-top: 20px;\n\ninput {\n  color: #fff !important;\n}",
+                "isWrapper": false,
+                "props": {
+                  "onClick": {
+                    "source": "actions",
+                    "sourceData": {
+                      "actions": []
+                    }
+                  }
+                },
+                "systemProps": {
+                  "visible": {
+                    "source": "static",
+                    "sourceData": {
+                      "value": true
+                    }
+                  }
+                },
+                "layout": 0,
+                "regionsEnabled": [],
+                "children": [{
+                  "id": 112,
+                  "name": "Outlet",
+                  "title": "Outlet",
+                  "style": "",
+                  "isWrapper": false,
+                  "props": {},
+                  "systemProps": {
+                    "visible": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "layout": 0,
+                  "regionsEnabled": [],
+                  "children": []
+                }]
+              }]
+            }]
+          }]
+        }]
+      }, {
+        "id": 86,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": [{
+      "id": 13,
+      "path": "sign_in",
+      "title": "Sign in form",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": false,
+      "redirectAuthenticatedTo": "",
+      "redirectAnonymous": false,
+      "redirectAnonymousTo": "",
+      "paramValues": {},
+      "component": {
+        "id": 113,
+        "name": "HTML.div",
+        "title": "HTML.div",
+        "style": "",
+        "isWrapper": false,
+        "props": {
+          "onClick": {
+            "source": "actions",
+            "sourceData": {
+              "actions": []
+            }
+          }
+        },
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 114,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 115,
+            "name": "Reactackle.TextField",
+            "title": "Reactackle.TextField",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "tooltip": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "symbolLimit": {
+                "source": "static",
+                "sourceData": {
+                  "value": 0
+                }
+              },
+              "multilineRows": {
+                "source": "static",
+                "sourceData": {
+                  "value": {
+                    "min": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    },
+                    "max": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "slidingLabel": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onBlur": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "message": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "autoComplete": {
+                "source": "static",
+                "sourceData": {
+                  "value": "off"
+                }
+              },
+              "colorScheme": {
+                "source": "static",
+                "sourceData": {
+                  "value": "neutral"
+                }
+              },
+              "bordered": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollOnFocus": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "multiline": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "clearingIcon": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onChange": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "defaultValue": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "prefix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "placeholder": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "label": {
+                "source": "static",
+                "sourceData": {
+                  "value": "Username"
+                }
+              },
+              "postfix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "fullWidth": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onFocus": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "type": {
+                "source": "static",
+                "sourceData": {
+                  "value": "text"
+                }
+              },
+              "disabled": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "labelPosition": {
+                "source": "static",
+                "sourceData": {
+                  "value": "top"
+                }
+              },
+              "dense": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          }]
+        }, {
+          "id": 118,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 119,
+            "name": "Reactackle.TextField",
+            "title": "Reactackle.TextField",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "tooltip": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "symbolLimit": {
+                "source": "static",
+                "sourceData": {
+                  "value": 0
+                }
+              },
+              "multilineRows": {
+                "source": "static",
+                "sourceData": {
+                  "value": {
+                    "min": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    },
+                    "max": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "slidingLabel": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onBlur": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "message": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "autoComplete": {
+                "source": "static",
+                "sourceData": {
+                  "value": "off"
+                }
+              },
+              "colorScheme": {
+                "source": "static",
+                "sourceData": {
+                  "value": "neutral"
+                }
+              },
+              "bordered": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollOnFocus": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "multiline": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "clearingIcon": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onChange": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "defaultValue": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "prefix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "placeholder": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "label": {
+                "source": "static",
+                "sourceData": {
+                  "value": "Password"
+                }
+              },
+              "postfix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "fullWidth": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onFocus": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "type": {
+                "source": "static",
+                "sourceData": {
+                  "value": "text"
+                }
+              },
+              "disabled": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "labelPosition": {
+                "source": "static",
+                "sourceData": {
+                  "value": "top"
+                }
+              },
+              "dense": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          }]
+        }, {
+          "id": 116,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 121,
+            "name": "HTML.div",
+            "title": "HTML.div",
+            "style": "> * {\n width: 100%;\n}",
+            "isWrapper": false,
+            "props": {
+              "onClick": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 120,
+              "name": "Reactackle.Button",
+              "title": "Reactackle.Button",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "size": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "normal"
+                  }
+                },
+                "outlined": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "onPress": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": [{
+                      "type": "mutation",
+                      "params": {
+                        "mutation": "authenticateUser",
+                        "args": {
+                          "email": {
+                            "source": "state",
+                            "sourceData": {
+                              "componentId": 115,
+                              "stateSlot": "value"
+                            }
+                          },
+                          "password": {
+                            "source": "state",
+                            "sourceData": {
+                              "componentId": 119,
+                              "stateSlot": "value"
+                            }
+                          }
+                        },
+                        "successActions": [{
+                          "type": "navigate",
+                          "params": {
+                            "routeId": 6,
+                            "routeParams": {}
+                          }
+                        }],
+                        "errorActions": []
+                      }
+                    }]
+                  }
+                },
+                "colorScheme": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "secondary"
+                  }
+                },
+                "href": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "text": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "Sign in"
+                  }
+                },
+                "radius": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "subtitle": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": null
+                  }
+                },
+                "raised": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "icon": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": {
+                      "size": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "normal"
+                        }
+                      },
+                      "color": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "colorScheme": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "default"
+                        }
+                      },
+                      "name": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "chevron-right"
+                        }
+                      },
+                      "border": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "flip": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "none"
+                        }
+                      },
+                      "rounded": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "backgroundColor": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "borderWidth": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      },
+                      "rotate": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      }
+                    }
+                  }
+                },
+                "iconPositionRight": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                },
+                "narrow": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "disabled": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "alternateTitle": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": null
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": []
+            }]
+          }]
+        }]
+      },
+      "children": []
+    }, {
+      "id": 14,
+      "path": "sign_up",
+      "title": "Sign up form",
+      "description": "",
+      "haveIndex": false,
+      "indexRouteDescription": "",
+      "indexComponent": null,
+      "redirect": false,
+      "redirectTo": "",
+      "redirectAuthenticated": false,
+      "redirectAuthenticatedTo": "",
+      "redirectAnonymous": false,
+      "redirectAnonymousTo": "",
+      "paramValues": {},
+      "component": {
+        "id": 122,
+        "name": "HTML.div",
+        "title": "HTML.div",
+        "style": "",
+        "isWrapper": false,
+        "props": {
+          "onClick": {
+            "source": "actions",
+            "sourceData": {
+              "actions": []
+            }
+          }
+        },
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 123,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 124,
+            "name": "Reactackle.TextField",
+            "title": "Reactackle.TextField",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "tooltip": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "symbolLimit": {
+                "source": "static",
+                "sourceData": {
+                  "value": 0
+                }
+              },
+              "multilineRows": {
+                "source": "static",
+                "sourceData": {
+                  "value": {
+                    "min": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    },
+                    "max": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "slidingLabel": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onBlur": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "message": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "autoComplete": {
+                "source": "static",
+                "sourceData": {
+                  "value": "off"
+                }
+              },
+              "colorScheme": {
+                "source": "static",
+                "sourceData": {
+                  "value": "neutral"
+                }
+              },
+              "bordered": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollOnFocus": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "multiline": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "clearingIcon": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onChange": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "defaultValue": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "prefix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "placeholder": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "label": {
+                "source": "static",
+                "sourceData": {
+                  "value": "E-mail"
+                }
+              },
+              "postfix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "fullWidth": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onFocus": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "type": {
+                "source": "static",
+                "sourceData": {
+                  "value": "text"
+                }
+              },
+              "disabled": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "labelPosition": {
+                "source": "static",
+                "sourceData": {
+                  "value": "top"
+                }
+              },
+              "dense": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          }]
+        }, {
+          "id": 125,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 126,
+            "name": "Reactackle.TextField",
+            "title": "Reactackle.TextField",
+            "style": "",
+            "isWrapper": false,
+            "props": {
+              "tooltip": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "symbolLimit": {
+                "source": "static",
+                "sourceData": {
+                  "value": 0
+                }
+              },
+              "multilineRows": {
+                "source": "static",
+                "sourceData": {
+                  "value": {
+                    "min": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    },
+                    "max": {
+                      "source": "static",
+                      "sourceData": {
+                        "value": 0
+                      }
+                    }
+                  }
+                }
+              },
+              "slidingLabel": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onBlur": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "message": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "autoComplete": {
+                "source": "static",
+                "sourceData": {
+                  "value": "off"
+                }
+              },
+              "colorScheme": {
+                "source": "static",
+                "sourceData": {
+                  "value": "neutral"
+                }
+              },
+              "bordered": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "scrollOnFocus": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "multiline": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "clearingIcon": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onChange": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "defaultValue": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "prefix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "placeholder": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "label": {
+                "source": "static",
+                "sourceData": {
+                  "value": "Password"
+                }
+              },
+              "postfix": {
+                "source": "static",
+                "sourceData": {
+                  "value": ""
+                }
+              },
+              "fullWidth": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "onFocus": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              },
+              "type": {
+                "source": "static",
+                "sourceData": {
+                  "value": "text"
+                }
+              },
+              "disabled": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              },
+              "labelPosition": {
+                "source": "static",
+                "sourceData": {
+                  "value": "top"
+                }
+              },
+              "dense": {
+                "source": "static",
+                "sourceData": {
+                  "value": false
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": []
+          }]
+        }, {
+          "id": 127,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 134,
+            "name": "HTML.div",
+            "title": "HTML.div",
+            "style": "label {\n  color: white !important;\n}",
+            "isWrapper": false,
+            "props": {
+              "onClick": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 129,
+              "name": "Reactackle.Checkbox",
+              "title": "Reactackle.Checkbox",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "defaultChecked": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "disabled": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "label": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "I accept terms of service"
+                  }
+                },
+                "tooltip": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "errorMessage": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "onChange": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": []
+            }]
+          }]
+        }, {
+          "id": 130,
+          "name": "Reactackle.FormItem",
+          "title": "Reactackle.FormItem",
+          "style": "",
+          "isWrapper": false,
+          "props": {},
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": [{
+            "id": 132,
+            "name": "HTML.div",
+            "title": "HTML.div",
+            "style": "> * {\n width: 100%;\n}",
+            "isWrapper": false,
+            "props": {
+              "onClick": {
+                "source": "actions",
+                "sourceData": {
+                  "actions": []
+                }
+              }
+            },
+            "systemProps": {
+              "visible": {
+                "source": "static",
+                "sourceData": {
+                  "value": true
+                }
+              }
+            },
+            "layout": 0,
+            "regionsEnabled": [],
+            "children": [{
+              "id": 133,
+              "name": "Reactackle.Button",
+              "title": "Reactackle.Button",
+              "style": "",
+              "isWrapper": false,
+              "props": {
+                "size": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "normal"
+                  }
+                },
+                "outlined": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "onPress": {
+                  "source": "actions",
+                  "sourceData": {
+                    "actions": []
+                  }
+                },
+                "colorScheme": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "secondary"
+                  }
+                },
+                "href": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": ""
+                  }
+                },
+                "text": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "Sign up"
+                  }
+                },
+                "radius": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": "default"
+                  }
+                },
+                "subtitle": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": null
+                  }
+                },
+                "raised": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "icon": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": {
+                      "size": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "normal"
+                        }
+                      },
+                      "color": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "colorScheme": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "default"
+                        }
+                      },
+                      "name": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "chevron-right"
+                        }
+                      },
+                      "border": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "flip": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "none"
+                        }
+                      },
+                      "rounded": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      },
+                      "backgroundColor": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": ""
+                        }
+                      },
+                      "borderWidth": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      },
+                      "rotate": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": 0
+                        }
+                      }
+                    }
+                  }
+                },
+                "iconPositionRight": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                },
+                "narrow": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "disabled": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": false
+                  }
+                },
+                "alternateTitle": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": null
+                  }
+                }
+              },
+              "systemProps": {
+                "visible": {
+                  "source": "static",
+                  "sourceData": {
+                    "value": true
+                  }
+                }
+              },
+              "layout": 0,
+              "regionsEnabled": [],
+              "children": []
+            }]
+          }]
+        }]
+      },
+      "children": []
+    }]
+  }, {
+    "id": 15,
+    "path": "/tab_component_test",
+    "title": "Tab component test",
+    "description": "Bug test for https://trello.com/c/pz7O7b2R/699-%D0%BA%D0%B0%D0%BD%D0%B2%D0%B0-%D0%BA%D1%80%D1%8D%D1%88%D0%B8%D1%82%D1%81%D1%8F-%D0%BF%D1%80%D0%B8-%D0%BF%D0%BE%D1%8B%D1%82%D0%BA%D0%B5-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D1%82%D0%B0%D0%B1-%D0%B2-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-tabs-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-jssy",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": false,
+    "redirectTo": "",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 135,
+      "name": "Reactackle.App",
+      "title": "Reactackle.App",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "fixed": {
+          "source": "static",
+          "sourceData": {
+            "value": false
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [0, 1, 2],
+      "children": [{
+        "id": 136,
+        "name": "Reactackle.TopRegion",
+        "title": "Reactackle.TopRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }, {
+        "id": 137,
+        "name": "Reactackle.MainRegion",
+        "title": "Reactackle.MainRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": [{
+          "id": 139,
+          "name": "Reactackle.Tabs",
+          "title": "Reactackle.Tabs",
+          "style": "",
+          "isWrapper": false,
+          "props": {
+            "tabs": {
+              "source": "static",
+              "sourceData": {
+                "value": [{
+                  "source": "static",
+                  "sourceData": {
+                    "value": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "tab 1"
+                        }
+                      },
+                      "linkHref": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": null
+                        }
+                      },
+                      "disabled": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      }
+                    }
+                  }
+                }, {
+                  "source": "static",
+                  "sourceData": {
+                    "value": {
+                      "text": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": "Tab 2"
+                        }
+                      },
+                      "linkHref": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": null
+                        }
+                      },
+                      "disabled": {
+                        "source": "static",
+                        "sourceData": {
+                          "value": false
+                        }
+                      }
+                    }
+                  }
+                }]
+              }
+            },
+            "colorScheme": {
+              "source": "static",
+              "sourceData": {
+                "value": "dark"
+              }
+            },
+            "onChange": {
+              "source": "actions",
+              "sourceData": {
+                "actions": []
+              }
+            }
+          },
+          "systemProps": {
+            "visible": {
+              "source": "static",
+              "sourceData": {
+                "value": true
+              }
+            }
+          },
+          "layout": 0,
+          "regionsEnabled": [],
+          "children": []
+        }]
+      }, {
+        "id": 138,
+        "name": "Reactackle.BottomRegion",
+        "title": "Reactackle.BottomRegion",
+        "style": "",
+        "isWrapper": false,
+        "props": {},
+        "systemProps": {
+          "visible": {
+            "source": "static",
+            "sourceData": {
+              "value": true
+            }
+          }
+        },
+        "layout": 0,
+        "regionsEnabled": [],
+        "children": []
+      }]
+    },
+    "children": []
+  }, {
+    "id": 16,
+    "path": "/test",
+    "title": "test",
+    "description": "",
+    "haveIndex": false,
+    "indexRouteDescription": "",
+    "indexComponent": null,
+    "redirect": false,
+    "redirectTo": "",
+    "redirectAuthenticated": false,
+    "redirectAuthenticatedTo": "",
+    "redirectAnonymous": false,
+    "redirectAnonymousTo": "",
+    "paramValues": {},
+    "component": {
+      "id": 140,
+      "name": "Reactackle.Text",
+      "title": "Reactackle.Text",
+      "style": "",
+      "isWrapper": false,
+      "props": {
+        "text": {
+          "source": "static",
+          "sourceData": {
+            "value": "Text"
+          }
+        }
+      },
+      "systemProps": {
+        "visible": {
+          "source": "static",
+          "sourceData": {
+            "value": true
+          }
+        }
+      },
+      "layout": 0,
+      "regionsEnabled": [],
+      "children": []
     },
     "children": []
   }],
