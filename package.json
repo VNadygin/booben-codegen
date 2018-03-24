@@ -1,6 +1,6 @@
 {
   "name": "@jssy/jssy-codegen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "",
   "description": "",
   "keywords": [
@@ -21,13 +21,16 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:strict": "eslint --max-warnings=0 ."
+    "lint:strict": "eslint --max-warnings=0 .",
+    "build": "babel -d ./build ./lib -s --plugins=transform-object-rest-spread --presets=env"
   },
   "dependencies": {
     "@jssy/graphql-schema": "^0.1.0",
     "@jssy/metadata": "^0.8.0",
     "archiver": "^2.1.1",
+    "babel": "^6.23.0",
     "babel-generator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
     "graphql": "^0.11.7",
@@ -43,6 +46,9 @@
     "thenify-all": "^1.6.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.11.0",
     "eslint-config-universe": "^1.0.6",
     "pre-commit": "^1.2.2",

@@ -5,6 +5,7 @@ npm:
   stage: publish
   script:
     - "rm -f .npmrc"
+    - "npm run build"
     - "npm publish"
   only:
     - master
