@@ -1,0 +1,11 @@
+'use strict';
+
+var _require = require('./constants'),
+    defaultContainerId = _require.defaultContainerId;
+
+var generateEntryHTMLFile = function generateEntryHTMLFile() {
+  return '\n    <!DOCTYPE html>\n    <html lang="en">\n      <head>\n        <meta charset="utf-8">\n        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\n        <meta name="theme-color" content="#000000">\n        <!--\n          manifest.json provides metadata used when your web app is added to the\n          homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/\n        -->\n        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">\n        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">\n        <!--\n          Notice the use of %PUBLIC_URL% in the tags above.\n          It will be replaced with the URL of the "public" folder during the build.\n          Only files inside the "public" folder can be referenced from the HTML.\n    \n          Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will\n          work correctly both with client-side routing and a non-root public URL.\n          Learn how to configure a non-root public URL by running "npm run build".\n        -->\n        <title>React App</title>\n      </head>\n      <body>\n        <noscript>\n          You need to enable JavaScript to run this app.\n        </noscript>\n        <div id="' + defaultContainerId + '"></div>\n        <!--\n          This HTML file is a template.\n          If you open it directly in the browser, you will see an empty page.\n    \n          You can add webfonts, meta tags, or analytics to this file.\n          The build step will place the bundled scripts into the <body> tag.\n    \n          To begin the development, run "npm start" or "yarn start".\n          To create a production bundle, use "npm run build" or "yarn build".\n        -->\n      </body>\n    </html>\n  ';
+};
+
+module.exports = generateEntryHTMLFile;
+//# sourceMappingURL=generateEntryHTMLFile.js.map

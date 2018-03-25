@@ -2,4 +2,3 @@ node_modules/
 bundle/
 .DS_Store
 .idea
-build/

@@ -1,6 +1,6 @@
 {
   "name": "@jssy/jssy-codegen",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "",
   "description": "",
   "keywords": [
@@ -12,12 +12,12 @@
     "type": "git",
     "url": "https://gitlab.ordbuy.com/jssy/codegen.git"
   },
-  "main": "./lib/api.js",
+  "main": "./build/api.js",
   "bin": {
     "jssy-codegen": "./bin/cli.js"
   },
   "directories": {
-    "lib": "lib"
+    "build": "build"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,7 +30,6 @@
     "archiver": "^2.1.1",
     "babel": "^6.23.0",
     "babel-generator": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0",
     "graphql": "^0.11.7",
