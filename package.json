@@ -8,7 +8,7 @@
     "codegen"
   ],
   "license": "UNLICENSED",
-  "main": "./build/api.js",
+  "main": "./lib/api.js",
   "bin": {
     "booben-codegen": "./bin/cli.js"
   },
