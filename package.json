@@ -7,7 +7,7 @@
     "booben",
     "codegen"
   ],
-  "license": "UNLICENSED",
+  "license": "Apache 2.0",
   "main": "./lib/api.js",
   "bin": {
     "booben-codegen": "./bin/cli.js"
