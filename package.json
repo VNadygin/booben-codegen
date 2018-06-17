@@ -17,7 +17,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:strict": "eslint --max-warnings=0 .",
+    "lint:strict": "eslint --max-warnings=0 ."
   },
   "dependencies": {
     "booben-graphql-schema": "^0.1.0",
