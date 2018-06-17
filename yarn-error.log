@@ -15,22 +15,22 @@ Platform:
 
 npm manifest: 
   {
-    "name": "jssy-codegen",
+    "name": "booben-codegen",
     "version": "0.0.1",
     "author": "",
     "description": "",
     "keywords": [
-      "jssy",
+      "booben",
       "codegen"
     ],
     "license": "UNLICENSED",
     "repository": {
       "type": "git",
-      "url": "https://gitlab.ordbuy.com/jssy/codegen.git"
+      "url": "https://gitlab.ordbuy.com/booben/codegen.git"
     },
     "main": "./lib/api.js",
     "bin": {
-      "jssy-codegen": "./bin/cli.js"
+      "booben-codegen": "./bin/cli.js"
     },
     "directories": {
       "lib": "lib"
@@ -40,8 +40,8 @@ npm manifest:
       "lint:strict": "eslint --max-warnings=0 ."
     },
     "dependencies": {
-      "@jssy/graphql-schema": "^0.1.0",
-      "@jssy/metadata": "^0.8.0",
+      "@booben/graphql-schema": "^0.1.0",
+      "@booben/metadata": "^0.8.0",
       "babel-generator": "^6.26.0",
       "babel-template": "^6.26.0",
       "babel-types": "^6.26.0",

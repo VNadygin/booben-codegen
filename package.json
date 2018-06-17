@@ -20,8 +20,8 @@
     "lint:strict": "eslint --max-warnings=0 ."
   },
   "dependencies": {
-    "booben-graphql-schema": "^0.1.0",
-    "booben-metadata": "^0.8.0",
+    "booben-graphql-schema": "^0.1.1",
+    "booben-metadata": "^0.8.5",
     "archiver": "^2.1.1",
     "babel": "^6.23.0",
     "babel-generator": "^6.26.0",

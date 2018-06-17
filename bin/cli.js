@@ -6,8 +6,8 @@ const { generateProject } = require('../lib/api');
 const cli = async () => {
   const argv = minimist(process.argv.slice(2));
   const result = await fs.readFile(argv.f);
-  const jssyProject = JSON.parse(result);
-  await generateProject(jssyProject, argv.o, { logger: console });
+  const boobenProject = JSON.parse(result);
+  await generateProject(boobenProject, argv.o, { logger: console });
 };
 
 cli().catch(err => {
