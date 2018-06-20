@@ -1,6 +1,6 @@
 {
   "name": "booben-codegen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "",
   "description": "",
   "keywords": [
@@ -37,12 +37,12 @@
     "request-promise-native": "^1.0.5",
     "rimraf": "^2.6.2",
     "thenify": "^3.3.0",
+    "prettier": "^1.10.2",
     "thenify-all": "^1.6.0"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
     "eslint-config-universe": "^1.0.6",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.10.2"
   }
 }
